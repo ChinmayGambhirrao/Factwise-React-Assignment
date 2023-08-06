@@ -1,0 +1,53 @@
+/* styles.css */
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  max-width: 300px;
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-card .user-details {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.user-card .user-details div {
+  margin-bottom: 10px;
+}
+
+.user-card .user-details input,
+.user-card .user-details select,
+.user-card .user-details textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-card .user-details button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.user-card .user-details textarea {
+  resize: vertical;
+}
+
+.user-card .user-details .MuiIconButton-root {
+  padding: 8px;
+  margin-right: 5px;
+}
